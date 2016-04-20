@@ -1,0 +1,14 @@
+<ion-view view-title="Terms Name">
+    <ion-header-bar class="bar-light bar-subheader">
+        <input type="search" placeholder="&#xf002; Поиск" ng-model="search" ng-focus="searchFocused = true" ng-blur="searchFocused = false" ng-change="scrollTop()" class="full-width text-center fa fa-search" aria-hidden="true">
+        <button ng-if="search.length" class="button button-icon ion-android-close input-button" ng-click="clearSearch()">
+        </button>
+    </ion-header-bar>
+    <ion-content>
+        <ion-refresher pulling-text="Обновление..." on-refresh="updateTermsPage()">
+        </ion-refresher>
+        <ion-item class="responsive-sm responsive-md responsive-lg" ng-repeat="material in materialsList" href="#/description">
+            {{material.title}}
+        </ion-item>
+    </ion-content>
+</ion-view>

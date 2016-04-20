@@ -1,0 +1,13 @@
+<ion-view view-title="Теория по ЕГЭ">
+    <!-- <ion-nav-buttons side="right">
+        <i class="button button-icon button-clear main-button-key"><img src="img/kluch.png"></i>
+    </ion-nav-buttons> -->
+    // href="#/topics/{{ subject.cat_id }}"
+    <ion-content class="main-body-background padding">
+        <div class="main-subject" ng-repeat="subject in subjects" style="background-color: {{subject.color}}"  ng-click="goToTopics(subject)">
+                <img ng-src="{{ subject.cat_image }}">
+                <div class="main-name-subject">{{subject.cat_name}}</div>
+                <!-- {{subject.cat_name}} -->
+        </div>
+    </ion-content>
+</ion-view>

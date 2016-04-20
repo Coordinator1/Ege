@@ -1,0 +1,137 @@
+a{
+	text-decoration: none;
+}
+.bar.bar-stable {
+    background-color: #36B5EF;
+}
+
+.bar.bar-light {
+    background-color: #f8f8f8;
+}
+
+.bar.bar-stable .title{
+	color: #fff;
+} 
+
+.bar-stable .button.button-icon{
+	color: #fff;
+}
+
+.button.button-icon.input-button {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #bbb;
+}
+
+.full-width {
+  width: 100%;
+}
+
+
+h3{
+	color: #36B5EF;
+}
+
+.description-only-image{
+	margin-top: 35%;
+}
+
+.image-list-thumb {
+    padding: 2px 2px 2px 2px;
+    height: 150px;
+}
+ 
+.image-modal {
+    width: 100% !important;
+    height: 100%;
+    top: 0 !important;
+    left: 0 !important;
+}
+ 
+.transparent {
+  background: rgba(0,0,0,0.7);
+}
+ 
+.slider {
+    width: 100%;
+    height: 100%;
+}
+ 
+.image {
+    width: 100%;
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center, center;
+}
+
+
+/*===== start main html =====*/
+.main-body-background{
+	background-color: #1b3b42;
+	text-align: center;
+}
+.main-subject{
+	position: relative;
+	display: inline-block;
+	width: 30%;
+	height: 25%;
+	margin: 5px;
+	text-align: center;
+	border: 1px solid #666;
+
+}
+.main-subject img{
+	position: absolute;
+	margin: 0 auto;
+	width: 50%;
+	top: 15%;
+	left: 0;
+	right: 0;
+}
+.main-name-subject{
+	position: absolute;
+	text-align: center !important;
+	width: 100%;
+	padding: 10px 1px 10px 1px;
+	color: #fff;
+	bottom: 0px;
+}
+.main-button-key{
+	text-align: right;
+}
+.main-button-key img {
+	width: 30%;
+}
+/*===== end main html =====*/
+
+/*===== Start categories html =====*/
+.categories-list-style li{
+	background: none; 
+	text-align: left; 
+	color: #fff; 
+	border-top: 0; 
+	border-right: 0; 
+	border-left: 0; 
+	width: 100%; 
+	border-color: #666;
+	padding-left: 10px;
+}
+
+.item .ion-chevron-right{
+	float: right;
+	color: #1199ea;
+}
+
+.categories-list-locked{
+	margin-top: 3px;
+	float: right;
+	width: 10px;
+	margin-right: 10px; 
+}
+.spinner svg{
+	stroke: #fff;
+}
+/*===== end categories html =====*/
+

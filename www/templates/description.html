@@ -1,0 +1,53 @@
+<ion-view view-title="Description Name">
+    <ion-content>
+        <div class="view1" ng-hide="true">
+            <div class="row">
+                <div class="col">
+                    <h3>Description Name</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <img src="img/ionic.png" alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos labore, excepturi expedita asperiores! Eveniet commodi distinctio quidem vitae et, libero assumenda velit sequi consectetur quas maiores deserunt accusantium, labore perspiciatis.</p>
+                </div>
+            </div>
+        </div>
+        <div class="view2" ng-hide="true">
+            <div class="row">
+                <div class="col">
+                    <h4>Lorem</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui illo aut itaque, fuga nulla molestias eveniet. Reprehenderit illum fugit, aspernatur aliquid rem nihil vero sapiente quibusdam sed aut natus dolorem!</p>
+                    <h4>Lorem</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui illo aut itaque, fuga nulla molestias eveniet. Reprehenderit illum fugit, aspernatur aliquid rem nihil vero sapiente quibusdam sed aut natus dolorem!</p>
+                    <h4>Lorem</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui illo aut itaque, fuga nulla molestias eveniet. Reprehenderit illum fugit, aspernatur aliquid rem nihil vero sapiente quibusdam sed aut natus dolorem!</p>
+                    <h4>Lorem</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui illo aut itaque, fuga nulla molestias eveniet. Reprehenderit illum fugit, aspernatur aliquid rem nihil vero sapiente quibusdam sed aut natus dolorem!</p>
+                    <h4>Lorem</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui illo aut itaque, fuga nulla molestias eveniet. Reprehenderit illum fugit, aspernatur aliquid rem nihil vero sapiente quibusdam sed aut natus dolorem!</p>
+                </div>
+            </div>
+        </div>
+        <div class="view3">
+            <div class="row">
+                <div class="col">
+                    <h3>Description Name</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col text-center description-only-image">
+                      <img ng-repeat="image in allImages" ng-src="{{image.src}}" ng-click="showImages($index)" class="image-list-thumb" />
+                </div>
+            </div>
+            <!-- 
+            <a class="item item-list-detail">
+                    <img ng-repeat="image in allImages" ng-src="{{image.src}}" ng-click="showImages($index)" class="image-list-thumb" />
+            </a> -->
+        </div>
+    </ion-content>
+</ion-view>

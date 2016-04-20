@@ -1,0 +1,13 @@
+<ion-view view-title="{{ selectedSubjectName }}">
+    <ion-content class="main-body-background padding">
+        <ion-refresher pulling-text="Обновление..." on-refresh="updateCategoriesPage()"></ion-refresher>
+        <ul class="list categories-list-style">
+            <ion-item class="item" ng-repeat="categories in categoriesList" href="#/materials/{{categories.cat_id}}">
+                {{ categories.cat_name }}
+                <i class="ion-chevron-right"></i>
+                <img ng-src="{{ categories.locked }}" class="categories-list-locked">
+            </ion-item>
+            </li>
+        </ul>
+    </ion-content>
+</ion-view>
